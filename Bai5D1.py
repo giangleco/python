@@ -1,0 +1,6 @@
+b=input("Full name: ")
+a=input("Age:")
+a=int(a)
+c=input("Sex:")
+d=input("Marital status:")
+print(b,a," years old",c,d)
