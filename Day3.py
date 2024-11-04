@@ -59,4 +59,3 @@ for i in range(1,101):
             tong+=j
         if tong==i:
             print(i, end=" ")
-          
