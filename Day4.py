@@ -24,13 +24,13 @@ L=[1 if i<2 else L[i-1]+L[i-2] for L[i] in range(N)]
 print(L)
 """van chua chay duoc fibonacy"""
 
-#Bai 2
+#Bai 2 
 
 import math
 def MIN(check:list)->int:
     MIN=check[0]
     for i in range(0,len(check)):
-        if check[i]<check[0]:
+        if check[i]<MIN:
             MIN=check[i]
     return MIN
 while True:
@@ -48,7 +48,7 @@ for i in range(1,n+1):
 a=MIN(tinh)
 for i in range(0,n):
     if a==list[i][3]:
-        print(list[i])
+        print(list[i])                       
 
 #Bai 3
 tuplet1=()
